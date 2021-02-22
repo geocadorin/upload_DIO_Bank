@@ -73,10 +73,10 @@ namespace DIO.Bank
         //Deposita valor fornecido pelo usuario em uma conta também fornecida por ele
         private static void Depositar()
         {
-            Console.WriteLine("Digite o número da conta: ");
+            Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("Digite o valor a ser depositado: ");
+            Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
 
             listaContas[indiceConta].Depositar(valorDeposito);
@@ -85,10 +85,10 @@ namespace DIO.Bank
         //Saca valor fornecido pelo usuario em uma conta também fornecida por ele
         private static void Sacar()
         {
-            Console.WriteLine("Digite o número da conta: ");
+            Console.Write("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("Digite o valor a ser sacado: ");
+            Console.Write("Digite o valor a ser sacado: ");
             double valorSaque = double.Parse(Console.ReadLine());
 
             listaContas[indiceConta].Sacar(valorSaque);
@@ -99,13 +99,13 @@ namespace DIO.Bank
         */
         private static void Transferir()
         {
-            Console.WriteLine("Digite o número da conta de origem: ");
+            Console.Write("Digite o número da conta de origem: ");
             int indiceContaOrigem = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite o número da conta de destino: ");
+            Console.Write("Digite o número da conta de destino: ");
             int indiceContaDestino = int.Parse(Console.ReadLine());
             
-            Console.WriteLine("Digite o valor a ser transferido: ");
+            Console.Write("Digite o valor a ser transferido: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
 
             listaContas[indiceContaOrigem].Transferir(valorTransferencia,  listaContas[indiceContaDestino]);
@@ -133,17 +133,17 @@ namespace DIO.Bank
         {
              Console.WriteLine("Inserir Conta");
 
-             Console.WriteLine("Digite 1 para Conta Física ou 2 para Jurídica: ");
+             Console.Write("Digite 1 para Conta Física ou 2 para Jurídica: ");
              int entradaTipoConta = int.Parse(Console.ReadLine());
 
-             Console.WriteLine("Digite o Nome do Cliente: ");
+             Console.Write("Digite o Nome do Cliente: ");
              string entradaNomeCliete = Console.ReadLine();
 
-             Console.WriteLine("Digite o saldo inicial: ");
+             Console.Write("Digite o saldo inicial: ");
              double entradaSaldo = double.Parse(Console.ReadLine());
 
              
-            Console.WriteLine("Digite o crédito: ");
+            Console.Write("Digite o crédito: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
             Conta novaConta = new Conta(
