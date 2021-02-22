@@ -1,0 +1,13 @@
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.exe
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.deps.json
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.runtimeconfig.json
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.runtimeconfig.dev.json
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.dll
+C:\Users\Geovanni\Desktop\work\DIO.Bank\bin\Debug\netcoreapp3.1\DIO.Bank.pdb
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.csprojAssemblyReference.cache
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.AssemblyInfoInputs.cache
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.AssemblyInfo.cs
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.csproj.CoreCompileInputs.cache
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.dll
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.pdb
+C:\Users\Geovanni\Desktop\work\DIO.Bank\obj\Debug\netcoreapp3.1\DIO.Bank.genruntimeconfig.cache
